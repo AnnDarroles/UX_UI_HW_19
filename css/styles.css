@@ -1,0 +1,423 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    /*width: 1440px;
+    
+    ---height: 100% 
+    position: relative;
+    width: 1440px;---
+
+    height: 100%;
+    overflow-y: scroll;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.15625) 47.92%, #000000 100%), #0E1B3D; */
+
+   
+width: 100%;
+height: 2590px;
+overflow-y: scroll;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.15625) 47.92%, #000000 100%), #0E1B3D;
+  
+    /**/
+}
+
+/* THIS IS THE PINNED CONTACT ME BUTTON*/
+.pinned {
+    /*
+    position: fixed;    
+    width: 196px;
+    height: 64px;
+    left: 1440px;
+    top: 751px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -4px 17px rgba(255, 138, 0, 0.59);
+    border-radius: 3px;
+    cursor: pointer;
+*/
+    position: fixed;
+    right: 20px;
+    bottom: 110px;
+    cursor: pointer;
+}
+/*THIS IS THE HEADER/TOPNAV SECTION*/
+header {
+    background: linear-gradient(180deg, rgba(240, 61, 62, 0.2) 0%, rgba(241, 78, 79, 0.126) 32.81%, rgba(242, 81, 82, 0.124047) 42.19%, rgba(255, 255, 255, 0) 100%), #FFE600;
+    position: absolute;
+    width: 100%;
+    margin:0px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+}
+.headerMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 263px;
+    height: 31px;
+    left: 134px;
+    top: 61px;
+    font-family: Roboto;
+font-style:normal;
+font-display:block;
+font-weight: bold;  
+font-size: 14px;
+line-height: 14px;
+cursor: pointer;
+/* identical to box height, or 117% */
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+}
+.headerMenu li:hover {border-bottom: 3px solid #0E1B3D;}
+li{
+    display:inline;
+    padding: 5px;
+}
+
+/* --------THIS IS THE HERO IMAGE--------*/
+.heroTexttop {
+    /* Oh Hello! */
+
+
+    position: absolute;
+    width: 450px;
+    height: 65px;
+    left: 555px;
+    top: 268px;
+
+    /* H1 */
+
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+    color: #FFE600;
+    
+}
+.heroTextmid{
+    display: inline
+}
+
+.name {
+    position: absolute;
+    width: 800px;
+    height: 65px;
+    left: 555px;
+    top: 370px;
+    /* H1 */
+
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+.greet {
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    left: 495px;
+    top: 440px;
+    /* H3 */
+
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.heroTextbot {
+    /* User Experience and Interface Designer */
+    position: absolute;
+    width: 1000px;
+    height: 40px;
+    left: 760px;
+    top: 480px;
+    /* H3 */
+
+    font-family: EB Garamond;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFE600;
+}
+
+
+.descText {
+    position: absolute;
+    width: 824px;
+    height: 63px;
+    left: 500px;
+    top: 680px;
+    /* H3 */
+
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFE600;
+}
+/* ---------THIS IS THE CONTENT SECTION-------------*/
+/* ---------SKILLS-------------*/
+.mySkills{
+   align-items: center;
+   
+}
+.sText{
+    position: absolute;
+    width: 114px;
+    height: 65px;
+    left: 880px;
+    top: 890px;
+    
+    /* H1 */
+    
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 65px;
+    
+    color: #FFFFFF;
+    
+}
+.flexContainer{
+
+/* Auto layout */
+cursor: pointer;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 1048px;
+height: 365px;
+left: 400px;
+top: 1040px;
+justify-content: space-between;
+align-content: center;
+
+}
+.textSkills1{
+ 
+    
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;  
+}
+.textSkills2{
+
+    
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.textSkills3{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+/* ---------WORK-------------*/
+
+.wText{
+    position: absolute;
+    width: 114px;
+    height: 65px;
+    left: 880px;
+    top: 1500px;
+    
+    /* H1 */
+    
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 65px;
+    
+    color: #FFFFFF;
+    
+}
+.workGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 2500px;
+    height: 600px;
+    left: 201px;
+    top: 1670px;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.textWork1{
+    position: absolute;
+width: 322px;
+height: 141px;
+left: 417px;
+top: 69px;
+}
+.h3YSM{
+    cursor: pointer;
+    width: 350px;
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+/* identical to box height */
+color: #FFE600;
+}
+
+.pYSM{
+    width: 500x;
+/* H3 */
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 5px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.dhsPNG{
+margin-left: 14%;
+}
+.textWork2{
+    position: absolute;
+width: 529px;
+height: 111px;
+left: 420px;
+top: 390px;
+
+}
+.h3DHS{
+    cursor: pointer;
+    width: 800px;
+    font-family: 'EB Garamond';
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #FFE600;
+}
+
+.pDHS{
+    width: 500x;
+/* H3 */
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 5px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.viewM{
+    /* Auto layout */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    /* identical to box height, or 78% */
+    
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    /* Mono/Black */
+    cursor: pointer;
+    
+    color: #252525;
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px 378px;
+
+position: absolute;
+width: 600px;
+height: 20px;
+left: 226px;
+top: 2310px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(250, 186, 186, 0.0491716) 44.27%, rgba(246, 134, 135, 0.0860503) 59.9%, rgba(242, 81, 82, 0.124047) 74.48%, rgba(241, 78, 79, 0.126) 88.02%, rgba(240, 61, 62, 0.2) 100%), #FFE600;
+border-radius: 7px;
+}
+/* THIS IS THE FOOTER SECTION*/
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 106px;
+    left: 0px;
+    top: 2590px;
+    background: linear-gradient(180deg, rgba(240, 61, 62, 0.2) 0%, rgba(241, 78, 79, 0.126) 32.81%, rgba(242, 81, 82, 0.124047) 42.19%, rgba(255, 255, 255, 0) 100%), #FFE600;
+  
+}
+.footerMenu {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    position: relative;
+    width: 530px;
+    left: 760px;
+    right: 500px;
+    height: 65px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.footerMenu li:hover {border-bottom: 3px solid #0E1B3D;}

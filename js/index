@@ -1,0 +1,22 @@
+console.log("Your index.js file is loaded correctly!");
+function change(x){ document.getElementById("demo2").style.color = "darkorange";
+}
+function changeb(x) {
+    document.getElementById("demo2").style.color = "black";
+}
+
+function bigImg(x) {
+    x.style.height = "500px";
+    x.style.width = "500px";
+  }
+  
+  function normalImg(x) {
+    x.style.height = "300px";
+    x.style.width = "333px";
+  }
+  function mouseOver(x) {
+   x.style.color = "orange";
+  }
+  function mouseOut(x) {
+    x.style.color = "#FFE600";
+  }
